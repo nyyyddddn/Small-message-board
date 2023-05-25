@@ -10,6 +10,7 @@ mysql >=5 & php >= 5
 
 ## 部署
 
-1将demo.sql导入数据库
 
+1将demo.sql导入数据库
 2修改config.php配置
+3创建./ueditor将ueditor.zip解压到./ueditor

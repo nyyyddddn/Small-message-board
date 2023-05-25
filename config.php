@@ -1,0 +1,11 @@
+<?php
+$db_ip='localhost';
+$db_username='root';
+$db_password='root';
+$db_dbname='demo1';
+$con=mysqli_connect($db_ip,$db_username,$db_password,$db_dbname);
+if(!$con)
+{
+	die("数据库连接错误!code:".mysqli_connect_errno());
+}
+?>
